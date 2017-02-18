@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="q1">What is the middle name of Peter Parker?</string>
+    <string name="op1.1">Bijoy</string>
+    <string name="op1.2">Benjamin</string>
+    <string name="op1.3">Bosco</string>
+    <string name="op1.4">Bradley</string>
 </resources>
