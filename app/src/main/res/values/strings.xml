@@ -5,4 +5,14 @@
     <string name="op1.2">Benjamin</string>
     <string name="op1.3">Bosco</string>
     <string name="op1.4">Bradley</string>
+    <string name="q2">What is the name of this game?</string>
+    <string name="op2.1">Grand Theft Auto V</string>
+    <string name="op2.2">Sleeping Dogs</string>
+    <string name="op2.3">Watch Dogs</string>
+    <string name="op2.4">Prototype</string>
+    <string name="q3">How many centuries did Virat Kohli score in IPL season 9</string>
+    <string name="op3.1">1</string>
+    <string name="op3.2">2</string>
+    <string name="op3.3">3</string>
+    <string name="op3.4">4</string>
 </resources>
