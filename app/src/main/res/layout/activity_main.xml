@@ -32,22 +32,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:id="@+id/rg1"
             >
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/rb1.1"
             android:text="@string/op1.1"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/rb1.2"
             android:text="@string/op1.2"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/rb1.3"
             android:text="@string/op1.3"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/rb1.4"
             android:text="@string/op1.4"/>
     </RadioGroup>
     <TextView
@@ -68,22 +73,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:id="@+id/rg2"
             >
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb2.1"
                 android:text="@string/op2.1"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb2.2"
                 android:text="@string/op2.2"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb2.3"
                 android:text="@string/op2.3"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb2.4"
                 android:text="@string/op2.4"/>
         </RadioGroup>
         <TextView
@@ -93,35 +103,104 @@
             android:textColor="@color/colorPrimaryDark"
             android:padding="10dp"
             android:id="@+id/q3"
-            android:text="@string/q2"
+            android:text="@string/q3"
             />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/viratkohli"
             android:scaleType="centerCrop"
-            />
+            android:src="@drawable/viratkohli"/>
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:id="@+id/rg3"
             >
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb3.1"
                 android:text="@string/op3.1"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb3.2"
                 android:text="@string/op3.2"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb3.3"
                 android:text="@string/op3.3"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/rb3.4"
                 android:text="@string/op3.4"/>
         </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/q4"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/got"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:text="@string/op4.1"
+            android:id="@+id/checkbox1"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:text="@string/op4.2"
+            android:id="@+id/checkbox2"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:text="@string/op4.3"
+            android:id="@+id/checkbox3"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:text="@string/op4.4"
+            android:id="@+id/checkbox4"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/q5"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/katy"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:inputType="textPersonName"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/score"
+            android:text="@string/score"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/retry"
+            android:text="@string/retry"
+            />
     </LinearLayout>
 </ScrollView>

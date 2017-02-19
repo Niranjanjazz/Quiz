@@ -10,9 +10,21 @@
     <string name="op2.2">Sleeping Dogs</string>
     <string name="op2.3">Watch Dogs</string>
     <string name="op2.4">Prototype</string>
-    <string name="q3">How many centuries did Virat Kohli score in IPL season 9</string>
+    <string name="q3">How many centuries did Virat Kohli score in IPL season 9?</string>
     <string name="op3.1">1</string>
     <string name="op3.2">2</string>
     <string name="op3.3">3</string>
     <string name="op3.4">4</string>
+    <string name="q4">Check the actor(s) who is/are not part of the american series \'Game of Thrones\'</string>
+    <string name="op4.1">Emilia Clarke</string>
+    <string name="op4.2">Grant Gustin</string>
+    <string name="op4.3">Kit Harrington</string>
+    <string name="op4.4">Charlie Cox</string>
+    <string name="q5">Enter the name of the singer</string>
+    <string name="op5.1">Emilia Clarke</string>
+    <string name="op5.2">Grant Gustin</string>
+    <string name="op5.3">Kit Harrington</string>
+    <string name="op5.4">Charlie Cox</string>
+    <string name="score">Check your score!</string>
+    <string name="retry">Retry the quiz!</string>
 </resources>
