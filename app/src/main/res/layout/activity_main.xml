@@ -185,8 +185,7 @@
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:ems="10"
-            android:id="@+id/editText"
-            android:inputType="textPersonName"
+            android:id="@+id/EditText"
             android:layout_height="match_parent" />
         <Button
             android:layout_width="match_parent"
